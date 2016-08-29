@@ -37,9 +37,9 @@ parallel hardware and software design.  </p>
 <div class="overview_main_item overview_ruled_element">Basic Info</div>
 
 <div style="padding-bottom: 15px;">
-<div>TIME TBD</div>
-<div>LOCATION TBD</div>
-<div>Instructors: <a href="TBD">TBD</a> and <a href="TBD">TBD</a></div>
+<div>TIME 9:00-10:20am</div>
+<div>LOCATION GHC 4307</div>
+<div>Instructors: <a href="http://www.cs.cmu.edu/~tcm/">Todd Mowry</a> and <a href="http://www.cs.cmu.edu/~bpr/">Brian Railing</a></div>
 <div style="padding-top:1em;">See the <a href="<?php echo site_url('courseinfo'); ?>">course info</a> page for more info on policies and logistics.</div>
 </div>
 
@@ -90,13 +90,13 @@ function lecture_def($date, $title, $link, $fmt='', $extras=array()) {
 
 $lectures = array(
 
-  lecture_def('Jan 1', 'Why Parallelism?', lecture_url('testlecture'), '', array('Example subitem 1', "Example subitem 2")),
+  lecture_def('Aug 29', 'Why Parallelism?', lecture_url('testlecture'), '', array('Example subitem 1', "Example subitem 2")),
 
-  lecture_def('Jan 2', 'Lecture With No Link', '', 'bold'),
+  lecture_def('Aug 31', 'Lecture With No Link', '', 'bold'),
 
-  lecture_def('Jan 3', 'Lecture With No Link', '', 'bold'),
+  lecture_def('Sep 2', 'Lecture With No Link', '', 'bold'),
     
-  lecture_def('Jan 4', 'No Class (Labor Day)', '', 'bold')
+  lecture_def('Sep 5', 'No Class (Labor Day)', '', 'bold')
   );
 
 

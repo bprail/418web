@@ -11,10 +11,10 @@ function make_url($first, $second) {
 
 <div class="home_title">Parallel Computer Architecture and Programming <span style="font-size: 12pt;">(CMU 15-418/618)</span> </div>
 
-<div>CMU 15-418/618, Spring 2016</div>
-     <div><Mon/Wed 3:00 - 4:20pm</div>
-     <div>GHC 4401 (Rashid Auditorium)</div>
-     <div style="padding-bottom: 20px;">Instructors: <a href="http://www.cs.cmu.edu/~kayvonf">Kayvon Fatahalian</a> and <a href="http://www.cs.cmu.edu/~bryant/">Randal Bryant</a></div>
+<div>CMU 15-418/618, Fall 2016</div>
+     <div>Mon/Wed/Fri 9:00 - 10:20am</div>
+     <div>GHC 4307</div>
+     <div style="padding-bottom: 20px;">Instructors: <a href="http://www.cs.cmu.edu/~tcm/">Todd Mowry</a> and <a href="http://www.cs.cmu.edu/~bpr/">Brian Railing</a></div>
 
 <div class="overview_main_item overview_ruled_element">Course Description</div>
 
@@ -35,91 +35,26 @@ will cover both parallel hardware and software design.
 <div class="indented_block">
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo make_url($staff_photos_url,'kayvonf.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div><a href="http://www.cs.cmu.edu/~kayvonf">Kayvon Fatahalian</a></div>
-<div>[kayvonf at cs] </div>
-<div>Smith Hall 225</div>
-<div>Office hours: Tue 4-5pm,<br/>Fri 4-5pm, or by appointment</div>
+<img src="<?php echo make_url($staff_photos_url,'bpr.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div><a href="http://www.cs.cmu.edu/~tcm/">Todd Mowry</a></div>
+<div>[tcm at cs] </div>
+<div>GHC 9113</div>
+<div></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo make_url($staff_photos_url, 'randy.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div><a href="http://www.cs.cmu.edu/~bryant/">Randal Bryant</a></div>
-<div>[bryant at cs]</div>
-<div>GHC 9125</div>
-<div>Office hours: Mon 1:30-2:30pm</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
 
 <div style="width: 360px; float: left;">
 <img src="<?php echo make_url($staff_photos_url,'bpr.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
 <div><a href="http://www.cs.cmu.edu/~bpr">Brian Railing</a></div>
-<div>[bpr at andrew] </div>
-<div>GHC 6025</div>
-<div>Office hours: Thu 12-1pm,<br/>or by appointment</div>
+<div>[bpr at cs] </div>
+<div>GHC 6005</div>
+<div></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 
 <div class="overview_minor_item" style="clear: both; padding-top: 2em; padding-bottom: 2em;">Your fun and helpful TAs:</div>
 
-<div style="width: 360px; float: left;">
-<img src="<?php echo make_url($staff_photos_url, 'grose.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name">Gregory Rose</div>
-<div>grose at andrew</div>
-<div class="bold_text">Office hours:</div>
-<div> Mon 4:30-5:30pm</div>
-<div>Location: Gates Collaborative Commons (5th floor)</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo make_url($staff_photos_url, 'cacay.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name">Josh Acay</div>
-<div>cacay at andrew</div>
-<div class="bold_text">Office hours:</div>
-<div>Tue 2-3pm</div>
-<div>Location: Gates Collaborative Commons (5th floor)</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo make_url($staff_photos_url, 'oguz.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name">Oguz Ulgen</div>
-<div>oulgen at andrew</div>
-<div class="bold_text">Office hours:</div>
-<div>Wed 1:30-2:30pm</div>
-<div>Location: Gates Collaborative Commons (5th floor)</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo make_url($staff_photos_url, 'kcma.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name">Karima Ma</div>
-<div>kcma at andrew</div>
-<div class="bold_text">Office hours:</div>
-<div>Thu 4-5pm</div>
-<div>Location: Gates Collaborative Commons (5th floor)</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo make_url($staff_photos_url, 'kku.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name">Kevin Ku</div>
-<div>kevinku at cmu</div>
-<div class="bold_text">Office hours:</div>
-<div>Wed 5:30-6:30, Fri 1-2pm</div>
-<div>Location: Gates Collaborative Commons (5th floor)</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
 
 
 
