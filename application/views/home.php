@@ -90,13 +90,69 @@ function lecture_def($date, $title, $link, $fmt='', $extras=array()) {
 
 $lectures = array(
 
-  lecture_def('Aug 29', 'Why Parallelism?', lecture_url('testlecture'), '', array('Example subitem 1', "Example subitem 2")),
+  lecture_def('Aug 29', 'Why Parallelism?', lecture_url('whyparallelism'), '', array('Syllabus', "Parallelism Demos")),
 
-  lecture_def('Aug 31', 'Lecture With No Link', '', 'bold'),
+  lecture_def('Aug 31', 'Modern Multi-Core Processor', lecture_url('basicarch'), '', array('Assignment 1 Out - Sep 1')),
 
-  lecture_def('Sep 2', 'Lecture With No Link', '', 'bold'),
+  lecture_def('Sep 2', 'Parallel Programming Models', lecture_url('progmodels'), 'bold'),
     
-  lecture_def('Sep 5', 'No Class (Labor Day)', '', 'bold')
+  lecture_def('Sep 5', 'No Class (Labor Day)', '', 'bold'),
+  
+  lecture_def('Sep 7', 'Parallel Programming Basics', '', 'bold'),
+  
+  lecture_def('Sep 9', 'GPU Architecture and CUDA Programming', '', 'bold'),
+  
+  lecture_def('Sep 12', 'Performance Optimization I', '', 'bold', array('Assignment 1 Due', "Assignment 2 Out")),
+  
+  lecture_def('Sep 14', 'Performance Optimization II', '', 'bold'),
+   
+  lecture_def('Sep 16', 'Parallel Application Case Studies', '', 'bold') ,
+  
+  lecture_def('Sep 19', 'Workload-Driven Performance Evaluation', '', 'bold') ,
+  
+  lecture_def('Sep 21', 'Snooping-Based Cache Coherence', '', 'bold') ,
+  
+  lecture_def('Sep 23', 'Directory-Based Cache Coherence', '', 'bold') ,
+  
+  lecture_def('Sep 26', 'Snooping-Based Multiprocessor Design', '', 'bold', array('Assignment 2 Due', "Assignment 3 Out")),
+  
+  lecture_def('Sep 28', 'Memory Consistency', '', 'bold') ,
+  
+  lecture_def('Sep 30', 'Performance Monitoring Tools', '', 'bold') ,
+  
+  lecture_def('Oct 3', 'Scaling a Web Site', '', 'bold') ,
+  
+  lecture_def('Oct 5', 'Exam I', '', 'bold') ,
+  
+  lecture_def('Oct 7', 'Interconnection Networks', '', 'bold'),
+  
+  lecture_def('Oct 10', 'Implementing Synchronization', '', 'bold') ,
+  
+  lecture_def('Oct 12', 'Fine-Grained Sync, Lock-Free Programming', '', 'bold', array('Assignment 3 Due', "Assignment 4 Out")),
+  
+  lecture_def('Oct 14', 'Transactional Memory', '', 'bold') ,
+  
+  lecture_def('Oct 17', 'Heterogenous Paralelism, HW Specialization', '', 'bold') ,
+  
+  lecture_def('Oct 19', 'Earthquake Simulation Case Study', '', 'bold') ,
+  
+  lecture_def('Oct 21', 'No lecture: Fall Break', '', 'bold') ,
+  
+  lecture_def('Oct 24', 'Domain-Specific Parallel Programming', '', 'bold') ,
+  
+  lecture_def('Oct 26', 'Domain-Specific Programming on Graphs', '', 'bold', array('Assignment 4 Due')) ,
+  
+  lecture_def('Oct 28', 'Meeting to discuss project ideas', '', 'bold') ,
+  
+  lecture_def('Oct 31', 'Addressing the Memory Wall', '', 'bold', array('Project Proposal Due')) ,
+  
+  lecture_def('Nov 2', 'Parallel Deep Neural Networks', '', 'bold') ,
+  
+  lecture_def('Nov 4', 'Parallellizing the 3D Graphics Pipeline', '', 'bold') ,
+  
+  lecture_def('Nov 11', 'Exam II', '', 'bold') ,
+  
+  lecture_def('Nov 21', 'Project Milestone Meetings', '', 'bold', array('Project Milestone Due'))
   );
 
 
@@ -155,7 +211,7 @@ foreach ($lectures as $lecture)
 
 <table>
 <tr>
-    <td class="schedule_date">Jan 1</td><td class="schedule_lecture"><a href="<?php echo article_url('3'); ?>">Assignment 1: This is a dummy link</a></td>
+    <td class="schedule_date">Sep 1</td><td class="schedule_lecture"><a href="<?php echo article_url('3'); ?>">Assignment 1: Analyzing Program Performance on a Multi-Core CPU</a></td>
 </tr>
 <tr>
     <td class="schedule_date">weekly</td><td class="schedule_lecture"><a href="<?php echo article_url('1'); ?>">Guidelines and Tips for Making Good Lecture Comments</a></td>
@@ -170,9 +226,9 @@ foreach ($lectures as $lecture)
 Corporation</a>, the <a href="http://www.nvidia.com">NVIDIA
 Corporation</a>, and to <a href="http://www.dell.com">DELL</a> for
 equipment donations and/or financial support for course development.
-<a href="http://www.cs.cmu.edu/~tcm">Todd Mowry</a> created the
-original version of 15-418 and much of the structure of his innovative
-course persists today. Thanks to Matt Pharr for technical assistance
+<a href="http://www.cs.cmu.edu/~kayvonf/">Kayvon</a> has extended  the
+original version of 15-418 and the course follows his vision. 
+Thanks to Matt Pharr for technical assistance
 with ISPC. Alex Reece, Manish Burman, and Cary Yang developed the
 course web site.  </p>
 

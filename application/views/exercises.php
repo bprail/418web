@@ -17,7 +17,7 @@ available on the <a href="<?php echo site_url('lectures'); ?>">Lectures</a> page
 <div class="overview_main_item overview_ruled_element">Programming Assignments</div>
 
 <p>
-<div><a href="<?php echo article_url('3'); ?>">Assignment 1: Dummy Link</a></div>
+<div><a href="<?php echo article_url('3'); ?>">Assignment 1: Analyzing Program Performance on a Multi-Core CPU</a></div>
 </p>
 
 <p>&nbsp;</p>

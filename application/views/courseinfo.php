@@ -16,6 +16,8 @@ function make_url($first, $second) {
      <div>GHC 4307</div>
      <div style="padding-bottom: 20px;">Instructors: <a href="http://www.cs.cmu.edu/~tcm/">Todd Mowry</a> and <a href="http://www.cs.cmu.edu/~bpr/">Brian Railing</a></div>
 
+<div><a href="<?php echo make_url("uploads", 'syllabus.pdf'); ?>">Syllabus</a></div>
+     
 <div class="overview_main_item overview_ruled_element">Course Description</div>
 
 <p>
@@ -35,11 +37,11 @@ will cover both parallel hardware and software design.
 <div class="indented_block">
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo make_url($staff_photos_url,'bpr.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<img src="<?php echo make_url($staff_photos_url,'tcm.jpg'); ?>" width="63" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
 <div><a href="http://www.cs.cmu.edu/~tcm/">Todd Mowry</a></div>
 <div>[tcm at cs] </div>
 <div>GHC 9113</div>
-<div></div>
+<div>Friday 10:30a-11:30a</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
@@ -48,14 +50,35 @@ will cover both parallel hardware and software design.
 <div><a href="http://www.cs.cmu.edu/~bpr">Brian Railing</a></div>
 <div>[bpr at cs] </div>
 <div>GHC 6005</div>
-<div></div>
+<div>Wednesday 10:30a-11:30a</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 
 <div class="overview_minor_item" style="clear: both; padding-top: 2em; padding-bottom: 2em;">Your fun and helpful TAs:</div>
 
+<div style="width: 360px; float: left;">
 
+<div>Timothy Zhu</a></div>
+<div>[timothyz at andrew] </div>
+<div>GHC 5th Floor Commons</div>
+<div>Monday 6-7p</div>
+<div style="clear: both;">&nbsp;</div>
+</div><div style="width: 360px; float: left;">
+
+<div>Jerry Zhang</div>
+<div>[zhenruiz at andrew]</div>
+<div>GHC 5th Floor Commons</div>
+<div>Wednesday 7-8p</div>
+<div style="clear: both;">&nbsp;</div>
+</div><div style="width: 360px; float: left;">
+
+<div>Chris Lee</div>
+<div>[christi3 at andrew]</div>
+<div>GHC 5th Floor Commons</div>
+<div>Tuesday 6-7p</div>
+<div style="clear: both;">&nbsp;</div>
+</div>
 
 
 <div style="clear: both;">&nbsp;</div>
