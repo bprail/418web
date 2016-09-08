@@ -98,7 +98,7 @@ $lectures = array(
     
   lecture_def('Sep 5', 'No Class (Labor Day)', '', 'bold'),
   
-  lecture_def('Sep 7', 'Parallel Programming Basics', '', 'bold'),
+  lecture_def('Sep 7', 'Parallel Programming Basics', lecture_url('progmodels'), 'bold'),
   
   lecture_def('Sep 9', 'GPU Architecture and CUDA Programming', '', 'bold'),
   

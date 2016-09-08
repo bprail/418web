@@ -54,6 +54,17 @@ The full listing of lecture videos, recorded during the Spring 2016, is availabl
      </div>
 </div>
 
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('progbasics'); ?>">Lecture 4:
+     Parallel Programming Basics</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=55cb2ba2-10ad-40c3-8315-0c8598e64977" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
 <p>&nbsp;</p>
 
 </div>
