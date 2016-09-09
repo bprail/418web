@@ -100,11 +100,11 @@ $lectures = array(
   
   lecture_def('Sep 7', 'Parallel Programming Basics', lecture_url('progbasics'), 'bold'),
   
-  lecture_def('Sep 9', 'GPU Architecture and CUDA Programming', '', 'bold'),
+  lecture_def('Sep 9', 'Performance Optimization Part 1: Work Distribution and Scheduling', lecture_url('progperf1'), 'bold'),
   
-  lecture_def('Sep 12', 'Performance Optimization I', '', 'bold', array('Assignment 1 Due', "Assignment 2 Out")),
+  lecture_def('Sep 12', 'Performance Optimization II', '', 'bold', array('Assignment 1 Due', "Assignment 2 Out")),
   
-  lecture_def('Sep 14', 'Performance Optimization II', '', 'bold'),
+  lecture_def('Sep 14', 'GPU Architecture and CUDA Programming', '', 'bold'),
    
   lecture_def('Sep 16', 'Parallel Application Case Studies', '', 'bold') ,
   

@@ -65,6 +65,17 @@ The full listing of lecture videos, recorded during the Spring 2016, is availabl
      </div>
 </div>
 
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('progperf1'); ?>">Lecture 5:
+      Performance Optimization Part 1: Work Distribution and Scheduling</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f0b01804-2bb2-418a-b436-e5446822ebf4" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
 <p>&nbsp;</p>
 
 </div>
