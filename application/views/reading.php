@@ -76,6 +76,17 @@ The full listing of lecture videos, recorded during the Spring 2016, is availabl
      </div>
 </div>
 
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('progperf2'); ?>">Lecture 6:
+      Performance Optimization Part II: Locality, Communication, and Contention</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6915770a-6986-45f9-a3a8-8978a5ff5465" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
 <p>&nbsp;</p>
 
 </div>
