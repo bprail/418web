@@ -87,6 +87,51 @@ The full listing of lecture videos, recorded during the Spring 2016, is availabl
      </div>
 </div>
 
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('gpuarch'); ?>">Lecture 7:
+      GPU Architecture and CUDA Programming</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c802ccf7-c8bc-4feb-83da-19ef17f1ee90" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('casestudies'); ?>">Lecture 8:
+      Parallel Programming Case Studies</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6772161b-61d8-4091-bba1-c95ef3360b85" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('perfeval'); ?>">Lecture 9:
+      Workload-Driven Performance Evaluation</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd2d111-09e4-44d6-b953-885fa679d3a1" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('cachecoherence1'); ?>">Lecture 10:
+      Snooping-Based Cache Coherence</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5481e0db-ded7-41af-9cff-3bc1ac3cb889" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
 <p>&nbsp;</p>
 
 </div>

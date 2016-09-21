@@ -104,13 +104,13 @@ $lectures = array(
   
   lecture_def('Sep 12', 'Performance Optimization Part 2: Locality, Communication, and Contention', lecture_url('progperf2'), 'bold', array('Assignment 1 Due')),
   
-  lecture_def('Sep 14', 'GPU Architecture and CUDA Programming', '', 'bold', array("Assignment 2 Out")),
+  lecture_def('Sep 14', 'GPU Architecture and CUDA Programming', lecture_url('gpuarch'), 'bold', array("Assignment 2 Out")),
    
-  lecture_def('Sep 16', 'Parallel Application Case Studies', '', 'bold') ,
+  lecture_def('Sep 16', 'Parallel Application Case Studies', lecture_url('casestudies'), 'bold') ,
   
-  lecture_def('Sep 19', 'Workload-Driven Performance Evaluation', '', 'bold') ,
+  lecture_def('Sep 19', 'Workload-Driven Performance Evaluation', lecture_url('perfeval'), 'bold') ,
   
-  lecture_def('Sep 21', 'Snooping-Based Cache Coherence', '', 'bold') ,
+  lecture_def('Sep 21', 'Snooping-Based Cache Coherence', lecture_url('cachecoherence1'), 'bold') ,
   
   lecture_def('Sep 23', 'Directory-Based Cache Coherence', '', 'bold') ,
   
@@ -212,6 +212,9 @@ foreach ($lectures as $lecture)
 <table>
 <tr>
     <td class="schedule_date">Sep 1</td><td class="schedule_lecture"><a href="<?php echo article_url('3'); ?>">Assignment 1: Analyzing Program Performance on a Multi-Core CPU</a></td>
+</tr>
+<tr>
+    <td class="schedule_date">Sep 14</td><td class="schedule_lecture"><a href="<?php echo article_url('4'); ?>">Assignment 2: A Simple CUDA Renderer</a></td>
 </tr>
 <tr>
     <td class="schedule_date">weekly</td><td class="schedule_lecture"><a href="<?php echo article_url('1'); ?>">Guidelines and Tips for Making Good Lecture Comments</a></td>
