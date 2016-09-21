@@ -16,7 +16,7 @@ function make_url($first, $second) {
      <div>GHC 4307</div>
      <div style="padding-bottom: 20px;">Instructors: <a href="http://www.cs.cmu.edu/~tcm/">Todd Mowry</a> and <a href="http://www.cs.cmu.edu/~bpr/">Brian Railing</a></div>
 
-<div><a href="<?php echo make_url("uploads", 'syllabus.pdf'); ?>">Syllabus</a></div>
+<div><a href="<?php echo make_url("../fall2016content/uploads", 'syllabus.pdf'); ?>">Syllabus</a></div>
      
 <div class="overview_main_item overview_ruled_element">Course Description</div>
 
