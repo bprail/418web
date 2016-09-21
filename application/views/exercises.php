@@ -10,7 +10,7 @@ available on the <a href="<?php echo site_url('lectures'); ?>">Lectures</a> page
 <div class="overview_main_item overview_ruled_element">Self-Check Exercises</div>
 
 <p>
-<div><a href="<?php echo $exercises_base_url . '/dummylink.pdf'; ?>">Exercise 1: Dummy Link</a></div>
+<div><a href="<?php echo $exercises_base_url . '/Quiz1_answer_key.pdf'; ?>">Exercise 1: Solution</a></div>
 <div class="small_text colored_text">Concepts tested: multi-core architecture, hardware multi-threading</div>
 </p>
 
@@ -18,6 +18,10 @@ available on the <a href="<?php echo site_url('lectures'); ?>">Lectures</a> page
 
 <p>
 <div><a href="<?php echo article_url('3'); ?>">Assignment 1: Analyzing Program Performance on a Multi-Core CPU</a></div>
+</p>
+
+<p>
+<div><a href="<?php echo article_url('4'); ?>">Assignment 2: A Simple CUDA Renderer</a></div>
 </p>
 
 <p>&nbsp;</p>
