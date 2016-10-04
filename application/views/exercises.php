@@ -24,6 +24,10 @@ available on the <a href="<?php echo site_url('lectures'); ?>">Lectures</a> page
 <div><a href="<?php echo article_url('4'); ?>">Assignment 2: A Simple CUDA Renderer</a></div>
 </p>
 
+<p>
+<div><a href="<?php echo article_url('11'); ?>">Assignment 3: Parallel VLSI Wire Routing via OpenMP</a></div>
+</p>
+
 <p>&nbsp;</p>
 
 </div>
