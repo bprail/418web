@@ -112,25 +112,25 @@ $lectures = array(
   
   lecture_def('Sep 21', 'Snooping-Based Cache Coherence', lecture_url('cachecoherence1'), 'bold') ,
   
-  lecture_def('Sep 23', 'Directory-Based Cache Coherence', '', 'bold') ,
+  lecture_def('Sep 23', 'Directory-Based Cache Coherence', lecture_url('directorycoherence'), 'bold') ,
   
-  lecture_def('Sep 26', 'Snooping-Based Multiprocessor Design', '', 'bold', array('Assignment 2 Due', "Assignment 3 Out")),
+  lecture_def('Sep 26', 'Snooping-Based Multiprocessor Design', lecture_url('snoopimpl'), 'bold', array('Assignment 2 Due')),
   
-  lecture_def('Sep 28', 'Memory Consistency', '', 'bold') ,
+  lecture_def('Sep 28', 'Memory Consistency', lecture_url('consistency'), 'bold', array("Assignment 3 Out")) ,
   
-  lecture_def('Sep 30', 'Performance Monitoring Tools', '', 'bold') ,
+  lecture_def('Sep 30', 'Performance Monitoring Tools', lecture_url('perftools'), 'bold') ,
   
-  lecture_def('Oct 3', 'Scaling a Web Site', '', 'bold') ,
+  lecture_def('Oct 3', 'Scaling a Web Site', lecture_url('webscaling'), 'bold') ,
   
-  lecture_def('Oct 5', 'Exam I', '', 'bold') ,
+  lecture_def('Oct 5', 'Interconnection Networks', '', 'bold') ,
   
-  lecture_def('Oct 7', 'Interconnection Networks', '', 'bold'),
+  lecture_def('Oct 7', 'Exam I', '', 'bold'),
   
   lecture_def('Oct 10', 'Implementing Synchronization', '', 'bold') ,
   
-  lecture_def('Oct 12', 'Fine-Grained Sync, Lock-Free Programming', '', 'bold', array('Assignment 3 Due', "Assignment 4 Out")),
+  lecture_def('Oct 12', 'Fine-Grained Sync, Lock-Free Programming', '', 'bold', array("Assignment 4 Out")),
   
-  lecture_def('Oct 14', 'Transactional Memory', '', 'bold') ,
+  lecture_def('Oct 14', 'Transactional Memory', '', 'bold', array('Assignment 3 Due')) ,
   
   lecture_def('Oct 17', 'Heterogenous Paralelism, HW Specialization', '', 'bold') ,
   
@@ -215,6 +215,9 @@ foreach ($lectures as $lecture)
 </tr>
 <tr>
     <td class="schedule_date">Sep 14</td><td class="schedule_lecture"><a href="<?php echo article_url('4'); ?>">Assignment 2: A Simple CUDA Renderer</a></td>
+</tr>
+<tr>
+    <td class="schedule_date">Sep 28</td><td class="schedule_lecture"><a href="<?php echo article_url('11'); ?>">Assignment 3: Parallel VLSI Wire Routing via OpenMP</a></td>
 </tr>
 <tr>
     <td class="schedule_date">weekly</td><td class="schedule_lecture"><a href="<?php echo article_url('1'); ?>">Guidelines and Tips for Making Good Lecture Comments</a></td>

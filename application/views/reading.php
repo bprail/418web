@@ -132,6 +132,66 @@ The full listing of lecture videos, recorded during the Spring 2016, is availabl
      </div>
 </div>
 
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('directorycoherence'); ?>">Lecture 11:
+      Directory-Based Cache Coherence</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=36177ab3-22ce-4b11-bf06-eabedf306e26" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('snoopimpl'); ?>">Lecture 12:
+      A Basic Snooping-Based Multi-Processor Implementation</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ccef6fd3-916a-426a-b28e-2feec7cab663" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('consistency'); ?>">Lecture 13:
+      Memory Consistency</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d08db410-12b9-4079-aa97-e00557bd081f" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('perftools'); ?>">Lecture 14:
+      Performance Monitoring Tools</a></div>
+     
+     <div class="book_lecture_indent">
+     <div>Further Reading:</div>
+     <ul>
+     <li><a href="http://queue.acm.org/detail.cfm?id=1117403" target="_blank">Performance Anti-patterns</a>. by B. Smaalders, ACM Queue 2006</li>
+     <li><a href="https://perf.wiki.kernel.org/index.php/Main_Page" target="_blank">Perf</a> Tool</li>
+     </ul>
+     </div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('webscaling'); ?>">Lecture 15:
+       Scaling a Web Site: Scale-out Parallelism, Elasticity, and Caching (plus course review)</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3bb2f332-fbdb-4434-9f3b-0c2b3f9668c8" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
 <p>&nbsp;</p>
 
 </div>
