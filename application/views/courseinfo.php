@@ -68,7 +68,7 @@ will cover both parallel hardware and software design.
 
 <div>Jerry Zhang</div>
 <div>[zhenruiz at andrew]</div>
-<div>GHC 5th Floor Commons</div>
+<div>Carrel 3 in GHC 5th floor</div>
 <div>Wednesday 7-8p</div>
 <div style="clear: both;">&nbsp;</div>
 </div><div style="width: 360px; float: left;">
@@ -134,7 +134,7 @@ have a partner in 15-418/618, it is highly recommended.
 </p>
 
 <p><span class="italic_text">Take home quizzes.</span> Students will
-complete take-home quizzes assigned every two weeks (six in
+complete take-home quizzes assigned every three weeks (four in
 total). Quizzes will be released on Wed night and be due the next
 Friday at 10am. These quizzes must be completed individually without
 discussion with other students, but will be graded on a participation
@@ -142,11 +142,11 @@ basis only.  </p>
 
 <p><span class="italic_text">Making per-lecture comments.</span> Each
 student must individually contribute one interesting comment per
-lecture using the course web site.</p>
+lecture using the course web site.  This is checked weekly</p>
 
 <p><span class="italic_text">Final project.</span> Over the last six
 weeks of the course students will propose and complete a self-selected
-final project.  The final project can be performed individually or in
+final project.  The final project must be performed in
 groups of two. Each team will present the project orally during the
 15-418/618 Parallelism Competition and produce a detailed write-up
 describing their work and results.</p>
@@ -158,9 +158,9 @@ describing their work and results.</p>
 <div class="overview_main_item overview_ruled_element">Grading</div>
 
 <ul>
-<li>Programming Assignments (4): 7&#37; + 10&#37; + 12&#37; + 10&#37; = <span class="colored_text">39&#37;</span></li>
-<li>Exams (2):  <span class="colored_text">28&#37;</span></li>
-<li>Final Project: <span class="colored_text">28&#37;</span></li>
+<li>Programming Assignments (4): <span class="colored_text">40&#37;</span></li>
+<li>Exams (2):  <span class="colored_text">30&#37;</span></li>
+<li>Final Project: <span class="colored_text">25&#37;</span></li>
 <li>Participation (quizzes and on-line comments): <span class="colored_text">5&#37;</span></li>
 </ul>
 

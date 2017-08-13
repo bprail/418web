@@ -1,3 +1,11 @@
+<?php
+
+function make_url($first, $second) {
+  return $first . '/' . $second;
+}
+
+?>
+
 
 <div class="home_container">
 
@@ -190,6 +198,118 @@ The full listing of lecture videos, recorded during the Spring 2016, is availabl
      <div class="resources">
      <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3bb2f332-fbdb-4434-9f3b-0c2b3f9668c8" target="_blank">Watch the Spring Lecture</a></div>
      </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('noc'); ?>">Lecture 16:
+       Interconnection Networks</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=20d21b98-4359-4188-a374-2983cecc2b38" target="_blank">Watch the Spring Lecture</a></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('implsync'); ?>">Lecture 17:
+       Implementing Synchronization</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0553fcc3-8278-4d59-bd31-dd7f608f2b43" target="_blank">Watch the Spring Lecture</a><p>
+     <a href="http://dx.doi.org/10.1145/103727.103729" target="_blank">Algorithms for Scalable Synchronization</a><p>
+     <a href="<?php echo make_url("../fall2016content/uploads", 'lec17_sync_handout.pdf'); ?>">Inclass Exercises</a></div>
+     <a href="<?php echo make_url("../fall2016content/uploads", 'lec17_sync_handout_sln.pdf'); ?>">Inclass Exercise Solutions</a></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('lockfree'); ?>">Lecture 18:
+       Fine-grained synchronization and lock-free programming</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=535b2461-438a-44e2-9e7b-028ffec7f44a" target="_blank">Watch the Spring Lecture</a><p>
+     <a href="<?php echo make_url("../fall2016content/uploads", 'lec18_lock_handout.pdf'); ?>">Inclass Exercises</a></div>
+     <a href="<?php echo make_url("../fall2016content/uploads", 'lec18_lock_handout_sln.pdf'); ?>">Inclass Exercise Solutions</a></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('transmem'); ?>">Lecture 19:
+       Transactional Memory</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22b2da9a-b1f4-4084-9077-aa9bfc85427c" target="_blank">Watch the Spring Lecture</a><p>
+     <a href="<?php echo make_url("../fall2016content/uploads", 'lec19_transact_mem.pdf'); ?>">Inclass Exercises</a></div>
+     <a href="<?php echo make_url("../fall2016content/uploads", 'lec19_tm_handout_sln.pdf'); ?>">Inclass Exercise Solutions</a></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('hwspecial'); ?>">Lecture 20:
+       Heterogenous Paralelism, HW Specialization</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=82747e8c-e3c4-4448-94df-3798ceef0ce8" target="_blank">Watch the Spring Lecture</a><p></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('memory'); ?>">Lecture 22:
+       Addressing the Memory Wall</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4068f6f4-d2c2-4812-9cc7-ccff02fe2a09" target="_blank">Watch the Spring Lecture</a><p></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('dsl'); ?>">Lecture 23:
+       Domain-Specific Programming Systems</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76c24d1e-260a-48fe-83c1-6d621b3da55f" target="_blank">Watch the Spring Lecture</a><p></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('graphsdsl'); ?>">Lecture 25:
+       Domain-specific programming on graphs</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b608f28f-bc2d-451b-b5b9-53fed153e095" target="_blank">Watch the Spring Lecture</a><p></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('dnn'); ?>">Lecture 26:
+       Parallel Deep Neural Networks</a></div>
+     
+     <div class="book_lecture_indent">
+     <div class="resources">
+     <div><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c22a3cac-a493-43d2-9922-ec0b5cdcc93e" target="_blank">Watch the Spring Lecture</a><p></div>
+     </div>
+</div>
+
+<div class="book_lecture">
+     <div class="book_lecture_title">
+     <a href="<?php echo lecture_url('underthehood'); ?>">Lecture 27:
+       Under the Hood: Implementation Details of Parallel Programming Frameworks</a></div>
 </div>
 
 <p>&nbsp;</p>

@@ -14,6 +14,16 @@ available on the <a href="<?php echo site_url('lectures'); ?>">Lectures</a> page
 <div class="small_text colored_text">Concepts tested: multi-core architecture, hardware multi-threading</div>
 </p>
 
+<p>
+<div><a href="<?php echo $exercises_base_url . '/exercise3-f16.pdf'; ?>">Exercise 3</a></div>
+<div class="small_text colored_text">Concepts tested: Web Scaling, Locking, Transactional Memory, Interconnection Networks</div>
+<p>
+
+<p>
+<div><a href="<?php echo $exercises_base_url . '/exam2practice-f16.pdf'; ?>">Exercise 4: Exam 2 Practice</a></div>
+<div class="small_text colored_text">Concepts tested: Quake, Runtime Impl, Locking, DRAM, Interconnection Networks</div>
+<p>
+
 <div class="overview_main_item overview_ruled_element">Programming Assignments</div>
 
 <p>
@@ -26,6 +36,19 @@ available on the <a href="<?php echo site_url('lectures'); ?>">Lectures</a> page
 
 <p>
 <div><a href="<?php echo article_url('11'); ?>">Assignment 3: Parallel VLSI Wire Routing via OpenMP</a></div>
+</p>
+
+<p>
+<div><a href="<?php echo article_url('12'); ?>">Assignment 4: Parallel VLSI Wire Routing via MPI</a></div>
+</p>
+
+<div class="overview_main_item overview_ruled_element">Final Project</div>
+<p>
+<div><a href="<?php echo article_url('10'); ?>">Final Project Information</a></div>
+</p>
+
+<p>
+<div><a href="<?php echo article_url('13'); ?>">Final Project Links</a></div>
 </p>
 
 <p>&nbsp;</p>

@@ -122,33 +122,33 @@ $lectures = array(
   
   lecture_def('Oct 3', 'Scaling a Web Site', lecture_url('webscaling'), 'bold') ,
   
-  lecture_def('Oct 5', 'Interconnection Networks', '', 'bold') ,
+  lecture_def('Oct 5', 'Interconnection Networks', lecture_url('noc'), 'bold') ,
   
   lecture_def('Oct 7', 'Exam I', '', 'bold'),
   
-  lecture_def('Oct 10', 'Implementing Synchronization', '', 'bold') ,
+  lecture_def('Oct 10', 'Implementing Synchronization', lecture_url('implsync'), 'bold') ,
   
-  lecture_def('Oct 12', 'Fine-Grained Sync, Lock-Free Programming', '', 'bold', array("Assignment 4 Out")),
+  lecture_def('Oct 12', 'Fine-Grained Sync, Lock-Free Programming', lecture_url('lockfree'), 'bold'),
   
-  lecture_def('Oct 14', 'Transactional Memory', '', 'bold', array('Assignment 3 Due')) ,
+  lecture_def('Oct 14', 'Transactional Memory', lecture_url('transmem'), 'bold', array('Assignment 3 Due', "Assignment 4 Out")) ,
   
-  lecture_def('Oct 17', 'Heterogenous Paralelism, HW Specialization', '', 'bold') ,
+  lecture_def('Oct 17', 'Heterogenous Paralelism, HW Specialization', lecture_url('hwspecial'), 'bold') ,
   
-  lecture_def('Oct 19', 'Earthquake Simulation Case Study', '', 'bold') ,
+  lecture_def('Oct 19', 'Earthquake Simulation Case Study', 'http://www.cs.cmu.edu/~quake-papers/spark98.pdf', 'bold') ,
   
   lecture_def('Oct 21', 'No lecture: Fall Break', '', 'bold') ,
   
-  lecture_def('Oct 24', 'Domain-Specific Parallel Programming', '', 'bold') ,
+  lecture_def('Oct 24', 'Addressing the Memory Wall', lecture_url('memory'), 'bold') ,
   
-  lecture_def('Oct 26', 'Domain-Specific Programming on Graphs', '', 'bold', array('Assignment 4 Due')) ,
+  lecture_def('Oct 26', 'Domain-Specific Programming Systems', lecture_url('dsl'), 'bold', array('Assignment 4 Due')) ,
   
   lecture_def('Oct 28', 'Meeting to discuss project ideas', '', 'bold') ,
   
-  lecture_def('Oct 31', 'Addressing the Memory Wall', '', 'bold', array('Project Proposal Due')) ,
+  lecture_def('Oct 31', 'Domain-Specific Programming on Graphs', lecture_url('graphsdsl'), 'bold', array('Project Proposal Due')) ,
   
-  lecture_def('Nov 2', 'Parallel Deep Neural Networks', '', 'bold') ,
+  lecture_def('Nov 2', 'Parallel Deep Neural Networks', lecture_url('dnn'), 'bold') ,
   
-  lecture_def('Nov 4', 'Parallellizing the 3D Graphics Pipeline', '', 'bold') ,
+  lecture_def('Nov 4', 'Parallel Runtime Implementations', lecture_url('underthehood'), 'bold') ,
   
   lecture_def('Nov 11', 'Exam II', '', 'bold') ,
   
@@ -218,6 +218,12 @@ foreach ($lectures as $lecture)
 </tr>
 <tr>
     <td class="schedule_date">Sep 28</td><td class="schedule_lecture"><a href="<?php echo article_url('11'); ?>">Assignment 3: Parallel VLSI Wire Routing via OpenMP</a></td>
+</tr>
+<tr>
+    <td class="schedule_date">Oct 14</td><td class="schedule_lecture"><a href="<?php echo article_url('12'); ?>">Assignment 4: Parallel VLSI Wire Routing via MPI</a></td>
+</tr>
+<tr>
+    <td class="schedule_date">Oct 17</td><td class="schedule_lecture"><a href="<?php echo lecture_url('projstart'); ?>">Final Project Overview</a></td>
 </tr>
 <tr>
     <td class="schedule_date">weekly</td><td class="schedule_lecture"><a href="<?php echo article_url('1'); ?>">Guidelines and Tips for Making Good Lecture Comments</a></td>
